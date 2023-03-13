@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+                <div class="row">
+                  <div class="col-sm">
+                   <img src="Daniel.webp" alt="Profile">
+                  </div>
+                  <div class="col-sm">
+                    <div>
+                    <p style="color: white;margin-top:55%;">Daniel Park</p>
+                   </div>
+                   <div>
+                    <p style="color: white; ">danielpark12@gmail.com</p>
+                </div>
+                  </div>
+                </div>
+              </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+<div class="main-table">
+  <div>
+    <button type="button1" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Add New
+    </button> </div>
+      <div id="table-container"></div>
+    </div>  
+
+      
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="buttone" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+         <div class="main-agileinfo">
+          <input type="serial" id="serial_number" placeholder="Serial Number">
+          <input type="title" id="title" placeholder="  Title">
+        <input type="date" id="due_date">
+        <div class="mb-3">
+          <label  for="exampleFormControlTextarea1"  style="font-size: 2em;" class="form-label">Description</label>
+          <textarea type="textarea" class="form-control" id="description" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="btnfortaskadd" class="btn" data-bs-dismiss="modal" style="letter-spacing: 3px;" >Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="dashboard.js"></script>
+</html>

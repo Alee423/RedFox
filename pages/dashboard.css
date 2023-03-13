@@ -1,0 +1,123 @@
+body{
+    background:rgb(209,44,25);
+}
+img{
+    border-radius: 10%;
+    width: 70%;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.main-table{
+     width: 80%;
+    margin: 8em auto;
+    background: rgba(0, 0, 0, 0.18);
+    background-size: cover;
+    padding: 3em;
+}
+table { 
+  border: 1px solid black;
+  width: 100%;  
+  color: white;
+  }
+  table, td, th{
+    border: 1px solid black;  
+  }
+  button[type="button1"] {
+    color: #fff;
+    background: rgb(209,44,25);
+    outline: none;
+    border: 1px solid rgb(209,44,25);
+    padding: 0.9em;
+    width: 25%;
+    margin: 2em 48em;
+    letter-spacing: 4px;
+    margin-top: 1em;
+  }
+  button[type="button1"]:hover {
+    background: rgba(0, 0, 0, 0.18);
+  }
+.modal-content{
+  background-color: rgb(209,44,25);
+  color: white;
+}
+button[type="button"] {
+  color: #fff;
+  background: rgb(209,44,25);
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.18) ;
+  padding: 0.9em;
+  letter-spacing: 3px;
+  width: 30%;
+
+}
+button[type="button"]:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+input[type="date"] {
+  color: #fff;
+  width: 100%;
+  background: rgb(209,44,25);
+  outline: none;
+  border: 1px solid  rgba(0, 0, 0, 0.18) ;
+  padding: 0.9em;
+  letter-spacing: 3px;
+}
+input[type="date"]:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+input[type="title"] {
+  color: #fff;
+  width: 100%;
+  background: rgb(209,44,25);
+  outline: none;
+  border: 1px solid  rgba(0, 0, 0, 0.18) ;
+  padding: 0.9em;
+  margin: 2em 0;
+  letter-spacing: 3px;
+}
+input[type="serial"] {
+  color: #fff;
+  width: 100%;
+  background: rgb(209,44,25);
+  outline: none;
+  border: 1px solid  rgba(0, 0, 0, 0.18) ;
+  padding: 0.9em;
+  letter-spacing: 3px;
+}
+
+.main-agileinfo {
+  width: 100%;
+  margin: 3em auto;
+  background: rgba(0, 0, 0, 0.18);
+  background-size: cover;
+  padding: 3em;
+}
+input[type="task"] {
+  font-size: .9em;
+  color: #fff;
+    background: rgb(209,44,25);
+    outline: none;
+    border: 1px solid rgb(209,44,25);
+    padding: 0.9em;
+    width: 100%;
+    margin: 2em 0;
+    letter-spacing: 3px;
+    
+}
+::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 100;
+}
+input[type="task"]:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+textarea[type="textarea"]{
+  font-size: .9em;
+  background: rgb(209,44,25);
+  outline: none;
+  border: 1px solid rgb(209,44,25);
+  padding: 0.9em;
+  width: 100%;
+  margin: 2em 0;
+}
